@@ -8,7 +8,7 @@ import cookieParser from 'cookie-parser';
 import path from 'path'
 
 
-mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string);  
+mongoose.connect("mongodb+srv://admin:4bBfoZAG0axg18C1@mern-booking-app-db.v8cgc.mongodb.net/?retryWrites=true&w=majority&appName=mern-booking-app-db");  
 
 const app = express();
 app.use(cookieParser());
